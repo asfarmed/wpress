@@ -177,10 +177,18 @@ $( document ).ready(function() {
 
   
 
-          
+ if(xtype=="dash"){         
 var src = {
-  xtype: milive
+  dash: milive
 };
+	 {else {
+	
+	
+	var src = {
+  hls: milive
+};
+		 
+	 }
 // Your player settings
 var settings = {
   licenseKey: radlicenseKey,
