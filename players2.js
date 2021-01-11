@@ -179,7 +179,7 @@ $( document ).ready(function() {
 
           
 var src = {
-  dash: milive
+  xtype: milive
 };
 // Your player settings
 var settings = {
